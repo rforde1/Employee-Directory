@@ -16,10 +16,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "client": "npm run start",
+    "client": "npm run react",
     "server": "node server",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "react-scripts start",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
