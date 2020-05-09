@@ -4,7 +4,7 @@ function Navbar(){
         return (
             <React.Fragment>
                 <nav className="navbar navbar-dark">
-                 <h1>Employee Directory</h1>
+                 <h1 className="center"> Welcome to Employee Directory</h1>
                </nav>
             </React.Fragment>
         )

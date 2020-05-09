@@ -1,6 +1,5 @@
   
 import React from 'react'
-
 function Search(props) {
     return (
         <React.Fragment>
@@ -9,7 +8,7 @@ function Search(props) {
                     <div className="md-form my-0">
                         <input
                             onChange={props.handleInputChange}
-                            value={props.searchParam}
+                            value={props.searchedEmp}
                             name="search"
                             type="text"
                             className="form-control"
